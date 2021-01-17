@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Sahibdeep Singh">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--
+            Webpage title bar, contains the image and the title
+        -->
+        <title>COMP 351</title>
+        <link rel="shortcut icon" href="/images/resume.png" type="image/png">
+        <link rel="stylesheet" type="text/css" href="/COMP351/labs/1/quizQuestions/css/quiz.css"/>
+        <link rel="stylesheet" type="text/css" href="/COMP351/labs/1/quizQuestions/css/game.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    
+    <div class="container">
+        <div class="justify-center flex-column" id="game">
+            <div id="hud">
+                <div class="hud-item">
+                    <p id="progressText" class="hud-prefix">
+                        Question
+                    </p>
+                    
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+                </div>
+                <div class="hud-item">
+                    <p class="hud-prefix">
+                        Score
+                    </p>
+                    <h1 class="hud-main-text" id="score">0</h1>
+                </div>
+            </div>
+            <h2 id="question">
+                What is the answer to this question?
+            </h2>
+            <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text" data-number="1">Choice </p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text" data-number="2">Choice 2</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text" data-number="3">Choice 3</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text" data-number="4">Choice 4</p>
+            </div>
+        </div>
+        
+    </div>
+    <script src="/COMP351/labs/1/quizQuestions/js/game.js"></script>
+    </body>
+    </html>
