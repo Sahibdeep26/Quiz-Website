@@ -1,0 +1,23 @@
+body {
+    margin: 10px 20px;
+}
+
+.question {
+    padding: 20px 10px;
+
+}
+
+.question .number {
+    color: red;
+}
+
+.question .header {
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+    overflow: hidden;
+    min-height: 50px;
+    max-height: 100px;
+}
